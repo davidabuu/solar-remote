@@ -5,7 +5,7 @@ const UserWebLayout = ({webtitle, children}) => {
     <div>
          <Head>
         <title>{webtitle}</title>
-        <meta name="description" content="Swazzy" />
+        <meta name="description" content="Monitoring of Solar Power Plant" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
