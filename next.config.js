@@ -1,6 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
-
-module.exports = nextConfig
+module.exports = {
+  env: {
+    MY_VALUE: process.env.MY_VALUE,
+    ANOTHER_VARIABLE: process.env.ANOTHER_VARIABLE,
+    // Add more environment variables as needed
+  },
+};

@@ -1,5 +1,8 @@
 @import "~antd/dist/antd.css";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   padding: 0;
@@ -130,6 +133,18 @@ li {
   height: 100vh;
   font-family: "Montserrat", sans-serif;
 }
+.admin-login {
+  background: linear-gradient(0deg, transparent, rgba(9, 10, 10, 0.605)),
+    url("/img3.webp");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  width: 100%;
+  color: #fff;
+  height: 100vh;
+}
 .form {
   align-items: center;
   border: 0;
@@ -175,16 +190,17 @@ input {
   justify-content: space-between;
   border-bottom: 1px solid #333;
 }
-.dash-name{
+.dash-name {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.dash-name h1{
-  padding-right:1rem ;
+.dash-name h1 {
+  padding-right: 1rem;
 }
-.table{
+.table {
   margin-top: 10px;
+ 
 }
 /* End of Dashboard Style */
 /* Footer Style */
@@ -240,7 +256,7 @@ input {
     padding-left: 1rem;
     transform: translateY(3px);
   }
-  .dashboard-container{
+  .dashboard-container {
     padding: 0.5rem;
   }
 }
@@ -257,11 +273,11 @@ input {
   .header ul li {
     transform: translateY(5px);
   }
- 
+
   form {
     padding: 10px;
   }
-  .dash-header h1{
+  .dash-header h1 {
     font-size: 17px;
   }
 }
